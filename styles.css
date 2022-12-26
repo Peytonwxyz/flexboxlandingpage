@@ -24,6 +24,7 @@ display: flex;
 font-size: 18px;
 padding: 5px;
 gap: 20px;
+list-style-type: none;
 }
 
 .main{
@@ -31,9 +32,13 @@ gap: 20px;
     padding: 10px 40px 10px 40px;
     background-color: #1F2937;
     color: white;
+    justify-content: space-evenly;
 }
 .mainimg {
 width: 400px;
+}
+.submain {
+    padding-right: 20px;
 }
 .subhead {
     font-size: 48px;
@@ -42,10 +47,22 @@ width: 400px;
 }
 .subtext {
     font-size: 18px;
+    max-width: 500px;
 }
 .button, .button2{
     background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    width: 75px;
+}
 
+.button {
+    font-weight: bold;
+    border: none;
+}
+
+.button2 {
+    border: 2px solid white;
 }
 .random{
 display:flex;
@@ -82,13 +99,19 @@ padding: 20px;
     display: flex;
     max-width: 600px;
     justify-content: space-around;
+    margin-bottom: -20px;
     
+}
+.quotee {
+    font-weight: bold;
+ 
 }
 .ctamain{
     display: flex;
     padding: 60px;
     justify-content: center;
     align-items: center;
+   
 }
 
 .cta{
@@ -97,9 +120,21 @@ padding: 20px;
     display: flex;
     background-color: #3882F6;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    border-radius: 10px;
 }
 
+.cta2{
+    padding-left: 40px;
+    color: white;
+}
+.ctatime {
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+.ctabutton {
+    padding-right: 40px;
+}
 .footer{
     display: flex;
     background-color: #1F2937;
